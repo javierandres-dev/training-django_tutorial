@@ -3,8 +3,8 @@
 ## Running with Docker locally
 ### Requirements
 To get started you will first need Docker installed on your machine.
-### Steps
-Create project
+### Clone this repository
+Start project
 ```
 $ docker-compose run web django-admin startproject djangoDocker .
 ```
