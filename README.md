@@ -2,7 +2,7 @@
 ---
 ## Running with Docker locally
 ### Requirements
-To get started you will first need Docker installed on your machine.
+To get started, you will first need to have Docker installed on your machine.
 
 Clone this repository and Run
 ```
