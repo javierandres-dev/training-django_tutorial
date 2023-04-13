@@ -5,6 +5,7 @@ SECRET_KEY = "django-insecure-d+xkejlnkw+33zc%si=ma4hv+(ldyw22_+t9#(=ukd#56z3w(#
 DEBUG = True
 ALLOWED_HOSTS = ["*"]
 INSTALLED_APPS = [
+    "polls.apps.PollsConfig",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -25,7 +26,7 @@ ROOT_URLCONF = "djangoDocker.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": [BASE_DIR / "templates"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
